@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Oct 7, 2023, 9:25:43 AM by Hibernate Tools 3.6.2.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class dynamic-insert="false" dynamic-update="false" mutable="true" name="com.infinite.cms.Restaurant" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="RESTAURANT">
+        <id name="Restaurant_ID" type="int">
+            <column name="Restaurant_ID"/>
+            <generator class="assigned"/>
+        </id>
+        <property generated="never" lazy="false" name="Restaurant_Name" optimistic-lock="true" type="java.lang.String" unique="false">
+            <column name="Restaurant_Name"/>
+        </property>
+        <property generated="never" lazy="false" name="Branch" optimistic-lock="true" type="java.lang.String" unique="false">
+            <column name="Branch"/>
+        </property>
+        <property generated="never" lazy="false" name="City" optimistic-lock="true" type="java.lang.String" unique="false">
+            <column name="City"/>
+        </property>
+        <property generated="never" lazy="false" name="MobileNo" optimistic-lock="true" type="java.lang.String" unique="false">
+            <column name="MobileNo"/>
+        </property>
+        <property generated="never" lazy="false" name="Email" optimistic-lock="true" type="java.lang.String" unique="false">
+            <column name="Email"/>
+        </property>
+        <property generated="never" lazy="false" name="Rating" optimistic-lock="true" type="java.lang.String" unique="false">
+            <column name="Rating"/>
+        </property>
+    </class>
+</hibernate-mapping>

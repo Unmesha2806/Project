@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="ISO-8859-1">
+
+<title>Insert title here</title>
+
+</head>
+
+<script>
+
+	function show() {
+
+		if (frmData.name.checked==true) {
+
+			document.getElementById("name").innerHTML="Present today";
+
+			}
+
+		else {
+
+				document.getElementById("name").innerHTML="Absent today";
+
+				}
+
+	}
+
+</script>
+
+ 
+
+<body>
+
+    <form name="frmData">
+
+	<center>
+
+		Status :
+
+		<input type="checkbox" name="Varsha" onchange="show()" /><br/><br/>
+
+		<input type="checkbox" name="Trisha" onchange="show()" /><br/><br/>
+
+        <input type="checkbox" name="sidhi"  onchange="show()" /><br/><br/>
+
+		<span id="name"></span>
+
+	</center>
+
+</form>
+
+ 
+
+</body>
+
+</html>

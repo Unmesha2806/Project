@@ -1,0 +1,11 @@
+127.0.0.1 - - [16/Oct/2023:15:09:08 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [16/Oct/2023:15:09:11 +0530] "GET /RestaurantManagement/ShowRestaurant.jsf HTTP/1.1" 200 5316
+127.0.0.1 - - [16/Oct/2023:15:09:24 +0530] "POST /RestaurantManagement/ShowRestaurant.jsf;jsessionid=CD3F4908660A2651576940D62DAEC95A HTTP/1.1" 302 -
+127.0.0.1 - - [16/Oct/2023:15:09:24 +0530] "GET /RestaurantManagement/ShowMenu.jsf HTTP/1.1" 200 5924
+127.0.0.1 - - [16/Oct/2023:15:09:28 +0530] "POST /RestaurantManagement/ShowMenu.jsf HTTP/1.1" 302 -
+127.0.0.1 - - [16/Oct/2023:15:09:28 +0530] "GET /RestaurantManagement/ShowMenu.jsf HTTP/1.1" 200 5924
+127.0.0.1 - - [16/Oct/2023:15:09:32 +0530] "POST /RestaurantManagement/ShowMenu.jsf HTTP/1.1" 302 -
+127.0.0.1 - - [16/Oct/2023:15:09:32 +0530] "GET /RestaurantManagement/ShowMenu.jsf HTTP/1.1" 200 5924
+127.0.0.1 - - [16/Oct/2023:15:09:53 +0530] "GET /RestaurantManagement/ShowRestaurantNew.jsf HTTP/1.1" 200 4039
+127.0.0.1 - - [16/Oct/2023:15:10:12 +0530] "GET /RestaurantManagement/ShowMenu.jsf HTTP/1.1" 200 5924
+127.0.0.1 - - [16/Oct/2023:15:10:51 +0530] "GET /RestaurantManagement/MenuPage.jsf HTTP/1.1" 200 151

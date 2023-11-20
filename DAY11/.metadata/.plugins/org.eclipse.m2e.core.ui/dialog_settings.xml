@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\InfiniteTraining\DAY11\EmployRealTime\resources\db.properties"/>
+			<item value="D:\InfiniteTraining\DAY11\CustomerRequirements\src\main\java\com\java\servlets\Otp.java"/>
+			<item value="D:\InfiniteTraining\DAY11\HibJsfEx\src\main\webapp\EmployShow.xhtml"/>
+			<item value="D:\InfiniteTraining\DAY11\JsfDemos\src\main\webapp\radioresult.xhtml"/>
+			<item value="D:\InfiniteTraining\DAY11\JspBeansDemo\pom.xml"/>
+			<item value="D:\InfiniteTraining\DAY11\JstlExamples\src\main\webapp\EmployShow.jsp"/>
+			<item value="D:\InfiniteTraining\DAY11\StateManagement\src\main\java\com\java\infinite\LoginDAOImpl.java"/>
+			<item value="D:\InfiniteTraining\DAY11\JunitDemos\src\test\java\com\java\junit\LeaveTest.java"/>
+			<item value="D:\InfiniteTraining\DAY11\LMSProject"/>
+			<item value="D:\InfiniteTraining\DAY11\LMSProject\src\com\java\lms\ApplyMain.java"/>
+			<item value="D:\InfiniteTraining\DAY11\EmployRealTime\src\main\java\com\java\bank\WithdrawAccountMain.java"/>
+			<item value="D:\InfiniteTraining\DAY11\JdbcExample\src\main\java\com\java\jdbc\EmployUpdate.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.java.jstl"/>
+			<item value="com.java.infinite"/>
+			<item value="com.java.ejb"/>
+			<item value="com.java.inventory"/>
+			<item value="com.java.stock"/>
+		</list>
+		<list key="groupId">
+			<item value="infinite"/>
+		</list>
+		<list key="artifactId">
+			<item value="JstlBeansExample"/>
+			<item value="LMSWeb"/>
+			<item value="DemoWeb"/>
+			<item value="EjbClient"/>
+			<item value="InventoryProjects"/>
+			<item value="InventoryProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

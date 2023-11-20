@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;InsuranceClient/src/main/webapp/VerifyPassword.jsp&apos;" deleteContents="false" description="Delete resource &apos;InsuranceClient/src/main/webapp/VerifyPassword.jsp&apos;" element1="/InsuranceClient/src/main/webapp/VerifyPassword.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1698209308809"/>
+</session>

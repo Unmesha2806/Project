@@ -1,0 +1,139 @@
+package com.java.employ;
+
+import static org.junit.Assert.*;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.junit.Test;
+
+import com.java.junit.LeaveDetails;
+import com.java.junit.LeaveStatus;
+import com.java.junit.LeaveType;
+
+public class VendorTest {
+	
+	@Test
+	public void testToString() {
+		
+		Employ emp = new Employ(1, "Satya", Gender.MALE, "Java", "Manager", 99424);
+		String result = "Employ [empno=1, name=Satya, gender=MALE, dept=Java, desig=Manager, basic=99424.0]";
+		assertEquals(result, emp.toString());
+		
+	}
+	
+	@Test
+	public void testGettersAndSetters() {
+		Vendor vendor = new Vendor();
+		
+
+		 
+
+		assertNotNull(vendor);
+
+ 
+
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+ 
+
+		 Date vendorStartedDate =sdf.parse("2023-09-14");
+		vendor.setVendorId(1);
+		vendor.setVendorName("Unmesha");
+		vendor.setVendorCity("Bangalore");
+		vendor.setVendorEmail("unmesha.megha@gmail.com");
+		vendor.setVendorMobile("7735955436");
+		vendor.setVendorStatus("Accepted");
+		vendor.setVendorStartedDate("2023-09-14");
+	    vendor.setVendorReview("good");
+		
+		
+		assertEquals(1, vendor.getVendorId());
+		assertEquals("Unmesha", vendor.getVendorName());
+		assertEquals("Bangalore", vendor.getVendorCity());
+		assertEquals("unmesha.megha@gmail.com", vendor.getVendorEmail());
+		assertEquals("7735955436", vendor.getVendorMobile());
+		assertEquals("Accepted", vendor.getVendorStatus());
+		assertEquals("2023-09-14",vendor.getVendorStartedDate());
+
+		assertEquals("good", vendor.getVendorReview());
+		
+	}
+
+	@Test
+
+	public void testConstructor() throws ParseException {
+
+ 
+
+		Vendor vendor = new Vendor();
+
+ 
+
+		assertNotNull(vendor);
+
+ 
+
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+ 
+
+		 Date vendorStartDate =sdf.parse("2023-09-14");
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 Vendor vendor = new Vendor(1,"unmesha","Bangalore","unmesha.megha@gmail.com","7735955436", vendorStartDate,"Accepted",good);
+
+		 
+
+		 assertEquals(1, leave.getLeaveId());
+
+ 
+
+		 assertEquals(1033217,leave.getEmpId());
+
+ 
+
+		 assertEquals("unmesha", leave.getEmpName());
+
+ 
+
+		 assertEquals(leaveStartDate, actualDate);
+
+ 
+
+		 assertEquals(leaveEndDate, actualDate2);
+
+ 
+
+		 assertEquals(LeaveStatus.ACCEPTED, leave.getLeaveStatus());
+
+ 
+
+		 assertEquals(LeaveType.EL, leave.getLeaveType());
+
+ 
+
+		 assertEquals("sick", leave.getLeaveReason());
+
+ 
+
+		 assertEquals("yes", leave.getManagerComments());
+
+ 
+
+		 assertEquals(appliedOn, actualDate3);
+
+ 
+
+		
+
+
+	}
+
+}

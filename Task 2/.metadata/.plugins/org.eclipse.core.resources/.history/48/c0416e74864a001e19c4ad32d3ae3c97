@@ -1,0 +1,68 @@
+package com.java.thr;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class LeaveDAOImpl implements LeaveDAO {
+	
+	private List<LeaveDetails> leaveDetailsList;
+	private int leaveIdCounter = 1;
+	
+	public LeaveDAOImpl() {
+		this.leaveDetailsList = new ArrayList<>();
+	}
+
+	@Override
+	public List<LeaveDetails> getAllLeaveDetails() {
+		
+		return leaveDetailsList;
+		
+		
+		
+		
+	}
+
+	@Override
+	public LeaveDetails getLeaveDetails(int leaveId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addLeaveDetails(LeaveDetails leaveDetails) {
+		
+		leaveDetailsList.add(leaveDetails);
+		
+	}
+
+	@Override
+	public void updateLeaveDetails(LeaveDetails leaveDetails) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteLeaveDetails(int leaveId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void saveLeaveDetailsToFile(String fileName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void loadLeaveDetailsFromFile(String fileName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void saveAllLeaveDetails(List<LeaveDetails> leaveDetailsList) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

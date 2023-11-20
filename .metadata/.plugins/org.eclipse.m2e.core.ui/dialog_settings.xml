@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\InfiniteTraining\HibRestrictionExample\src\main\java\com\java\jsf\Employ.hbm.xml"/>
+			<item value="D:\InfiniteTraining\CustomerJsfHib\src\main\java\com\infinite\cms\Restaurant.hbm.xml"/>
+			<item value="D:\InfiniteTraining\CustomerJsfHib\src\main\java\com\infinite\cms\Customer.java"/>
+			<item value="D:\InfiniteTraining\OneToOneNew\src\main\java\com\java\inf\ShowDetails.java"/>
+			<item value="D:\InfiniteTraining\CustomerJsfHib\src\main\webapp\RestaurantShow.jsp"/>
+			<item value="D:\InfiniteTraining\CustomerJsfHib\src\main\webapp\ShowMenu.jsp"/>
+			<item value="D:\InfiniteTraining\CustomerJsfHib\src\main\resources\hibernate.cfg.xml"/>
+			<item value="D:\InfiniteTraining\JsfHibJsp\src\main\webapp\Menu.jsp"/>
+			<item value="D:\InfiniteTraining\HibRestrictionExample\src\main\webapp\EmployShow.xhtml"/>
+			<item value="D:\InfiniteTraining\HibEx\src\main\java\com\java\hib\EmployDeleteMain.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.java.hms"/>
+			<item value="com.java.rms"/>
+			<item value="com.java.jsf"/>
+			<item value="com.java.inf"/>
+			<item value="Infinite"/>
+			<item value="com.java.reg"/>
+		</list>
+		<list key="groupId">
+			<item value="Infinite"/>
+		</list>
+		<list key="artifactId">
+			<item value="HospitalManagement"/>
+			<item value="RestaurantManagement"/>
+			<item value="JsfNamedQueries"/>
+			<item value="OneToOneEx"/>
+			<item value="OneToMany"/>
+			<item value="OneToOneNew"/>
+			<item value="CMS"/>
+			<item value="RegEx"/>
+			<item value="JsfControllerEx"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\unmeshaj\Downloads\JsfEx10"/>
+			<item value="C:\Users\unmeshaj\Downloads\OneToOneNew (1)"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

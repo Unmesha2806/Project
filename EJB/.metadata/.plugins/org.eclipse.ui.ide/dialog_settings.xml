@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\unmeshaj\Downloads\Day 38\AgentClient"/>
+			<item value="C:\Users\unmeshaj\Downloads\Day 38\AgentServer"/>
+			<item value="C:\Users\unmeshaj\Downloads\Day37_Part_2_Ejb_Jsf\Day37_Part_2_Ejb_Jsf\JsfEjbClient"/>
+			<item value="C:\Users\unmeshaj\Downloads\Day36_1\Day36_1\EjbJdbcClient"/>
+			<item value="C:\Users\unmeshaj\Downloads\Day36_Jsf\Day36_Jsf\JsfDemos"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

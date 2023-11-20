@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\InfiniteTraining\14 oct SAT\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+29807447.index
+2319874625.index

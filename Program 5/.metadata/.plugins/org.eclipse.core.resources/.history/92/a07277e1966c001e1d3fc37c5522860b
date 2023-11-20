@@ -1,0 +1,34 @@
+package com.java.src;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+	
+	
+	 public static void main(String[] args) {
+	        // Create an ArrayList of integers
+		 
+	        ArrayList<Integer> numbers = new ArrayList<>();
+	        
+	        // Add four values to the ArrayList
+	        
+	        numbers.add(5);
+	        numbers.add(6);
+	        numbers.add(7);
+	        numbers.add(8);
+	        
+	        
+	        System.out.println( numbers);
+	      
+	        
+	        
+	        
+	        
+	        
+
+	        
+	       
+	    }
+
+
+}

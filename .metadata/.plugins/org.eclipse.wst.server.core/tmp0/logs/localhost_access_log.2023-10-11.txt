@@ -1,0 +1,4 @@
+127.0.0.1 - - [11/Oct/2023:14:47:06 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [11/Oct/2023:14:47:09 +0530] "GET /CustomerJsfHib/RestaurantShow.jsf HTTP/1.1" 200 5294
+127.0.0.1 - - [11/Oct/2023:14:47:14 +0530] "POST /CustomerJsfHib/RestaurantShow.jsf;jsessionid=C3B244A3083A6DA90B7C5091F90F8D7F HTTP/1.1" 302 -
+127.0.0.1 - - [11/Oct/2023:14:47:14 +0530] "GET /CustomerJsfHib/ShowMenu.jsf HTTP/1.1" 200 3564

@@ -1,0 +1,37 @@
+package com.java.demo;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListExample3 {
+	
+	 // Create an ArrayList of integers
+	
+	public static void main(String[] args) {
+		
+		
+		
+		//Creating an arraylist of integers
+		
+		ArrayList<String> data = new ArrayList<>();
+		
+		 // Adding four values to the arraylist
+		
+		data.add("Apple");
+		data.add("Banana");
+		data.add("Grapes");
+		data.add("Strawberry");
+		
+		 // Iterating using for loop
+		
+		for(String fruits:data)
+		System.out.println(fruits);
+		
+
+		}
+	}
+		
+
+
+
+

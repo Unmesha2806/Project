@@ -1,0 +1,16 @@
+package com.java.src;
+
+public class Add {
+	
+	public static void main(String args[]) {
+	
+	
+		
+	int a = 5, b = 6, sum;  
+	
+	sum = a + b;  //Adding two numbers
+	
+	System.out.println("The sum of numbers is: "+sum);  
+	}  
+
+}

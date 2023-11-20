@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\InfiniteTraining\Day 4\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3397293651.index
+1174626852.index

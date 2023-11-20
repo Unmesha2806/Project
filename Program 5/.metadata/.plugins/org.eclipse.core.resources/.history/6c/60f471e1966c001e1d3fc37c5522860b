@@ -1,0 +1,17 @@
+package com.java.src;
+
+public class PrintNatural {
+	
+	public static void main(String[] args)
+    {     
+    int i;// a variable is declared
+	System.out.println (" natural numbers from 10 to 20  are:\n");
+	for (i=10;i<=20;i++) // (initialisation ; condition ; increament)
+	{      
+		System.out.println (i);
+	}
+System.out.println ("\n");
+    }
+}
+
+

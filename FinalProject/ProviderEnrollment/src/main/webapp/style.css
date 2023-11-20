@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+body{
+	font-family: Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(sign-up_image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+* Basic calendar structure */
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+}
+
+.weekday {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+}
+
+.day {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Highlight current day */
+.today {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.ui-datepicker {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+.ui-datepicker-header {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #0056b3;
+  border-radius: 3px;
+}
+
+.ui-datepicker-calendar {
+  border: 1px solid #ccc;
+}
+
+.ui-datepicker-calendar .ui-state-active,
+.ui-datepicker-calendar .ui-state-hover {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #0056b3;
+}
+
+.day:hover {
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.calendar {
+  font-family: 'Roboto', sans-serif;
+}
+
+.today {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+

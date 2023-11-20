@@ -1,0 +1,78 @@
+package com.java.lms;
+
+import java.sql.Date;
+
+public class Employee {
+	
+	private int empId;
+	private String empname;
+	private String empEmail;
+	private String mobileNo;
+	private Date dateOfJoin;
+	private int managerId;
+	private int leaveAvail;
+	public int getEmpId() {
+		return empId;
+	}
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+	public String getEmpname() {
+		return empname;
+	}
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	}
+	public String getEmpEmail() {
+		return empEmail;
+	}
+	public void setEmpEmail(String empEmail) {
+		this.empEmail = empEmail;
+	}
+	public String getMobileNo() {
+		return mobileNo;
+	}
+	public void setMobileNo(String mobileNo) {
+		this.mobileNo = mobileNo;
+	}
+	public Date getDateOfJoin() {
+		return dateOfJoin;
+	}
+	public void setDateOfJoin(Date dateOfJoin) {
+		this.dateOfJoin = dateOfJoin;
+	}
+	public int getManagerId() {
+		return managerId;
+	}
+	public void setManagerId(int managerId) {
+		this.managerId = managerId;
+	}
+	public int getLeaveAvail() {
+		return leaveAvail;
+	}
+	public void setLeaveAvail(int leaveAvail) {
+		this.leaveAvail = leaveAvail;
+	}
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empname=" + empname + ", empEmail=" + empEmail + ", mobileNo=" + mobileNo
+				+ ", dateOfJoin=" + dateOfJoin + ", managerId=" + managerId + ", leaveAvail=" + leaveAvail + "]";
+	}
+	public Employee(int empId, String empname, String empEmail, String mobileNo, Date dateOfJoin, int managerId,
+			int leaveAvail) {
+		super();
+		this.empId = empId;
+		this.empname = empname;
+		this.empEmail = empEmail;
+		this.mobileNo = mobileNo;
+		this.dateOfJoin = dateOfJoin;
+		this.managerId = managerId;
+		this.leaveAvail = leaveAvail;
+	}
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

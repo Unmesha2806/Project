@@ -1,0 +1,22 @@
+package com.java.demo;
+
+import java.util.ArrayList;
+
+public class ArrayListExample1 {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	//Creating an arraylist of integers
+	
+	ArrayList<Integer> numbers = new ArrayList<>();
+	
+	 // Adding four values to the arraylist
+	
+	numbers.add(1);
+	numbers.add(2);
+	numbers.add(3);
+	numbers.add(4);
+
+}

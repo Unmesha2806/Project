@@ -1,0 +1,24 @@
+package com.java.demo;
+
+public class First {
+	
+	public void show() {
+	      System.out.println("Show from First...");
+	   }
+	}
+
+	public class Second extends First {
+	   public void show() {
+	     System.out.println("Show Method from Class Second...");
+	   }
+	}
+
+	public class Main {
+	    public static void main(String[] args) {
+	         First fb = (First) new Second();
+		 fb.show();
+	    }
+}
+	
+
+

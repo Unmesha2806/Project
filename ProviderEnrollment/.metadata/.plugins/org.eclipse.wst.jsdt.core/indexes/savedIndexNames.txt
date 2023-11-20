@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+D:\InfiniteTraining\ProviderEnrollment\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+340836965.index

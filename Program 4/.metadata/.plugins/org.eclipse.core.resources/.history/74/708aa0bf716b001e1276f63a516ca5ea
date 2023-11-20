@@ -1,0 +1,13 @@
+package com.java.src;
+
+
+
+import java.util.*;
+public class HashMapExample{
+  public static void main(String args[]){
+    HashMap<Integer,String> hMap=new HashMap<>();
+    hMap.put(101,"Cricket");
+    hMap.put(105,"Hockey");
+    hMap.put(111,"Basketball");
+
+    System.out.println("HashMap elements: ");

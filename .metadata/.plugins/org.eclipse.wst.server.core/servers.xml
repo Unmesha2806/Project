@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="16">
+    <list key="modules" value0="HibRestrictionExample::org.eclipse.jst.jee.server:HibRestrictionExample::jst.web::2.5" value1="JsfJsp::org.eclipse.jst.jee.server:JsfJsp::jst.web::2.5" value2="CustomerJsfHib::org.eclipse.jst.jee.server:CustomerJsfHib::jst.web::2.5" value3="JsfControllerEx::org.eclipse.jst.jee.server:JsfControllerEx::jst.web::2.5" value4="JsfNamedQueries::org.eclipse.jst.jee.server:JsfNamedQueries::jst.web::2.5" value5="JsfEx10::org.eclipse.jst.jee.server:JsfEx10::jst.web::2.5" value6="RestaurantManagement::org.eclipse.jst.jee.server:RestaurantManagement::jst.web::2.5" value7="HibJsfAgent::org.eclipse.jst.jee.server:HibJsfAgent::jst.web::2.5" value8="HospitalManagement::org.eclipse.jst.jee.server:HospitalManagement::jst.web::2.5" value9="JsfHibJsp::org.eclipse.jst.jee.server:JsfHibJsp::jst.web::2.5"/>
+  </server>
+</servers>
